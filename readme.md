@@ -11,7 +11,7 @@ Testing
 
 ```
 git clone https://github.com/fanf/test-maven-assembly.git
-cd https://github.com/fanf/test-maven-assembly.git
+cd test-maven-assembly
 mvn package
 jar -tf target/test-1.0-SNAPSHOT-jar-with-dependencies.jar | grep slf4j
 ```
